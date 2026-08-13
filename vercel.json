@@ -1,13 +1,14 @@
 {
-  "headers": [
-    {
-      "source": "/sitemap.xml",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/xml"
-        }
-      ]
-    }
+  "buildCommand": "npm run build",
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "files": [
+    "index.html",
+    "sitemap.xml",
+    "robots.txt",
+    "google9cf8c0c3b4454214.html",
+    "favicon.ico",
+    "favicon.png",
+    "images"
   ]
 }
